@@ -94,6 +94,7 @@ body {
     font-size: 1.25rem;
     font-weight: bold;
     color: var(--primary-color);
+    font-size: 25px;
 }
 
 .nav-links {
