@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amer - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <span class="logo">Amer</span>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                    <button id="theme-toggle" aria-label="Toggle dark mode">
+                        <i data-lucide="moon"></i>
+                    </button>
+                    <!-- <button id="theme-toggle" aria-label="Toggle dark mode">  Theme </button> -->
+                </div>
+                <div class="mobile-nav">
+                    <button id="theme-toggle-mobile" aria-label="Toggle dark mode">
+                        <i data-lucide="moon"></i>
+                    </button>
+                    <button id="menu-toggle" aria-label="Toggle mobile menu">
+                        <i data-lucide="menu"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Hi, I'm <span class="myname">Amer</span> – A Software Developer Building Innovative
+                            Solutions</h1>
+                        <p>Transforming ideas into functional and elegant software</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                            <a href="#projects" class="btn btn-secondary">View Projects</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?auto=format&fit=crop&q=80&w=800"
+                            alt="Professional headshot">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="about-content">
+
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>I'm a software developer with a passion for creating impactful digital experiences. With
+                            expertise in SQL Server, Firebase, Javascript, CSS ,Html and I specialize in building robust
+                            and scalable solutions.</p>
+
+                        <p>I am a builder of worlds, both virtual and interactive. My hands have shaped Ethio Store, a
+                            digital marketplace where students find their needs met with ease, and ValueTracker, a
+                            compass for those navigating their goals. Now, I venture into the realm of game development,
+                            where I wield Unity to create universes that captivate and inspire.</p>
+                    </div>
+                    <div class="quick-facts">
+                        <h3>Quick Facts</h3>
+                        <ul>
+                            <li>Full-stack development expert</li>
+                            <li>Computer vision enthusiast</li>
+                            <li>Database architecture specialist</li>
+                            <li>Aspiring Desktop App developer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <div class="skills-content">
+                    <div class="skills-header">
+                        <h2>Skills & Expertise</h2>
+                        <p>Specialized in modern web development technologies and frameworks</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3><i data-lucide="code"></i>Frontend Development</h3>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-level">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3/Sass</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript (ES6+)</span>
+                                    <span class="skill-level">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3><i data-lucide="layers"></i>Frameworks & Libraries</h3>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React.js</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Tailwind CSS</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skill-category">
+                            <h3><i data-lucide="database"></i>Backend & Tools</h3>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL Server</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git/GitHub</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">FireBase</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="soft-skills">
+                        <div class="soft-skill">Problem Solving</div>
+                        <div class="soft-skill">Team Collaboration</div>
+                        <div class="soft-skill">Communication</div>
+                        <div class="soft-skill">Project Management</div>
+                        <div class="soft-skill">Adaptability</div>
+                        <div class="soft-skill">Critical Thinking</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- New AI Project -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
+                                alt="AI Assistant Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>Value Tracker</h3>
+                            <p>ValueTracker is a time management and productivity tracking tool designed to help users
+                                efficiently allocate their time to different tasks. The system enables users to select
+                                specific time slots (boxes), assign tasks with associated tags and colors, and monitor
+                                their daily activities. The platform also calculates total time spent on tasks,
+                                providing insights into productivity trends.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">FireBase</span>
+                                <span class="project-tag">Html</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/EXP-Ethiopia/ValueTracker" class="project-link">
+                                    <i data-lucide="github"></i>
+                                    <span>Code</span>
+                                </a>
+                                <a href="https://exp-ethiopia.github.io/ValueTracker/" class="project-link">
+                                    <i data-lucide="external-link"></i>
+                                    <span>Demo </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img class="image2"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuqmqiBHkFw0DC88miO5Hp3C5J1MxTdmJNpg&s"
+                            width="450" height="200" alt="EthioStore">
+                        <div class="project-content">
+                            <h3>Ethio Store</h3>
+                            <p>A fully functional e-commerce platform designed for university students, featuring user
+                                authentication, product listings, and a seamless checkout process.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Html</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/3mer7/Emart.github.io" class="project-link">
+                                    <i data-lucide="github"></i>
+                                    <span>Code</span>
+                                </a>
+                                <a href="https://3mer7.github.io/Emart.github.io/html/home.html" class="project-link">
+                                    <i data-lucide="external-link"></i>
+                                    <span>Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="rocket-line"><canvas></canvas></div>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Let's Build Something Amazing Together</h2>
+                        <p>I'm always interested in hearing about new projects and opportunities. Feel free to reach out
+                            if you'd like to connect!</p>
+                        <div class="contact-links">
+
+                            <div class="social-links">
+                                <a href="https://github.com/3mer77/">
+                                    <i data-lucide="github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/amer-al-ali-941b55311/">
+                                    <i data-lucide="linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="https://formsubmit.co/23aea07e20b63337a55bdb3707c95e1b" method="POST"
+                        id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <p>© 2024 Amer. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/3mer77/">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/amer-al-ali-941b55311/">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
