@@ -598,6 +598,26 @@ h2 {
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
+.contact-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px var(--shadow-color);
+    border: 1px solid var(--border-color);
+    margin-top: 2em;
+}
+
+.contact-detail div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
 /* Footer */
 footer {
     background-color: var(--bg-secondary);
